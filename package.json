@@ -1,0 +1,26 @@
+{
+  "name": "test-ts-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0",
+    "react-overlays": "^0.8.2",
+    "react-scripts-ts": "2.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "typings": "index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^21.1.2",
+    "@types/node": "^8.0.34",
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1"
+  }
+}
